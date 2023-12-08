@@ -29,7 +29,7 @@ For this project, the following python libraries were used:
 + sklearn - is a machine learning library in Python
 + statsmodels - is a Python module that provides classes and functions for estimating and testing statistical models
 
-The code is available as jupyter notebooks, under /scripts/.
+The code is available as jupyter notebooks, under /[scripts](https://github.com/SanjaIlinSpirovska/WATER-LOSS-PROJECT_Python/tree/main/02%20Scripts)/.
 
 ## Key Competencies
 1. **Data Wrangling:** This involves tasks like dropping unnecessary columns, renaming columns for clarity, and adjusting variable data types. It ensures that the data is well-organized and suitable for analysis.
