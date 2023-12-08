@@ -10,10 +10,9 @@ The project objective is to increase the efficiency of the planning process for 
 * Is there any seasonably pattern in the occurrence of the pipe leakage?
 * Forecast failures occurrence over time
 ## Data
-1.	**Data Sourcing**
+1.	**Data Sourcing:**
 The data were obtained by request from the municipal utility for the city of Pforzheim, Germany as a part of the research project AWaRe at the Karlsruhe Institute of Technology (KIT) and can be used only for academic or educational purposes. 
-2.	**Data Contents**
-The datasets used in the analysis:
+2.	**Data Contents:**
 * The dataset labeled "pipelines" (originally named "leitungen.xlsx") provides essential details about the water supply pipelines, including specific characteristics like the material of the pipes, their diameter, age, and information about the environmental factors affecting the pipelines. This environmental data includes details about traffic loading, the level of groundwater, and the type of soil (considering soil aggressiveness and settlement).
 * The "failures" dataset (originally named "schaeden.xlsx") provides fundamental information about the pipe failures that have occurred within the water supply network. This dataset includes details about the specific pipe where the failures took place, the date when the failure was reported, and the cause or reason for the damage.
 * The "Schadensdaten_geo" dataset provides fundamental information about the water supply network in Pforzheim, including details such as coordinates for reported water pipe failures and the corresponding street addresses where these failures occurred.
@@ -37,6 +36,8 @@ The code is available as jupyter notebooks, under /scripts/.
 2. **Data Consistency Checks:**  Identifying and rectifying mixed or incorrect data types, managing missing values, and addressing duplicates. Ensuring data quality and integrity is crucial for reliable analyses.
 3. **Exploratory Analysis:** During exploratory analysis, relationships within the data are investigated. This includes employing tools like correlation matrices, heatmaps, scatterplots, as well as creating pair and categorical plots to gain insights into the underlying patterns and trends.
 4. **Geographical Visualizations:** Utilizing libraries like geopandas, folium and pyproj to create various types of maps, including map with clustered markers, heatmap that and a marker map.
-Reporting Results: Summarizing the findings in an Excel file. This report not only explains answers to questions from sales and marketing but also documents the data's journey, including population flow, consistency checks, data wrangling steps, and column derivations. It serves as a comprehensive documentation of the entire analysis process.
+5. **Supervised Machine Learning:** In order to test the hypothesis, several analytical techniques were employed, including Binary Logistic Regression Analysis, implementation of the Random Forest Algorithm, and utilization of the XGBoost Algorithm.
+6. **Unsupervised Machine Learning:** In testing the hypothesis, the analysis involved the application of both K-Means clustering and Agglomerative Clustering techniques.
+7. **Analyzing and Forecasting Time Series Data:** The analyzing phase involves decomposing the time series, testing for stationarity, and conducting autocorrelation analysis. The forecasting phase includes defining model parameters, data splitting, model fitting, and iterative refinement for improved accuracy.
 
 Visualizations for this project can be found on Tableau [here](https://public.tableau.com/views/WaterLossProject/WaterLoss?:language=en-US&:display_count=n&:origin=viz_share_link).
