@@ -23,7 +23,12 @@ For this project, the following python libraries were used:
 + NumPy - mathematical library that supports a variety of operations, a dependency of pandas
 + seaborn - for visualization
 + matplotlib - a plotting library and a dependency for seaborn
-+ scipy - a fundamental Python library necessary for visualizations.
++ scipy - a fundamental Python library necessary for visualizations
++ folium -  is a Python library for creating interactive leaflet maps
++ geopandas - extends the Pandas library to enable spatial operations on geometric types
++ pyproj - Pyproj is a Python interface to the PROJ library, which is used for cartographic projections and coordinate transformations
++ sklearn - is a machine learning library in Python
++ statsmodels - is a Python module that provides classes and functions for estimating and testing statistical models
 
 The code is available as jupyter notebooks, under /scripts/.
 
