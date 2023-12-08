@@ -33,13 +33,10 @@ For this project, the following python libraries were used:
 The code is available as jupyter notebooks, under /scripts/.
 
 ## Key Competencies
-Data Wrangling: This involves tasks like dropping unnecessary columns, renaming columns for clarity, and adjusting variable data types. It ensures that the data is well-organized and suitable for analysis.
-Data Consistency Checks: Identifying and rectifying mixed or incorrect data types, dealing with missing values and duplicates to maintain data quality and integrity.
-Merging Data: Selecting and preparing data for merging, confirming the results of the merge using a merge flag, and exporting the data in Pickle format.
-Exploratory Analysis: This phase involves exploring basic descriptive statistics for each variable, such as the range, quartiles, mean, and standard deviation.
-Deriving New Variables: Creating new variables using if statements for-loops and the loc() function.
-Grouping Data & Aggregating Variables
-Visualizing Data: Utilizing data visualization libraries like Matplotlib and Seaborn to create various types of charts, including histograms, line charts, pie charts, and bar charts.
+1. **Data Wrangling:** This involves tasks like dropping unnecessary columns, renaming columns for clarity, and adjusting variable data types. It ensures that the data is well-organized and suitable for analysis.
+2. **Data Consistency Checks:**  Identifying and rectifying mixed or incorrect data types, managing missing values, and addressing duplicates. Ensuring data quality and integrity is crucial for reliable analyses.
+3. **Exploratory Analysis:** During exploratory analysis, relationships within the data are investigated. This includes employing tools like correlation matrices, heatmaps, scatterplots, as well as creating pair and categorical plots to gain insights into the underlying patterns and trends.
+4. **Geographical Visualizations:** Utilizing libraries like geopandas, folium and pyproj to create various types of maps, including map with clustered markers, heatmap that and a marker map.
 Reporting Results: Summarizing the findings in an Excel file. This report not only explains answers to questions from sales and marketing but also documents the data's journey, including population flow, consistency checks, data wrangling steps, and column derivations. It serves as a comprehensive documentation of the entire analysis process.
 
 Visualizations for this project can be found on Tableau [here](https://public.tableau.com/views/WaterLossProject/WaterLoss?:language=en-US&:display_count=n&:origin=viz_share_link).
