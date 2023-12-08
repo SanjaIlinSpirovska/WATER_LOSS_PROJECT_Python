@@ -41,4 +41,5 @@ Deriving New Variables: Creating new variables using if statements for-loops and
 Grouping Data & Aggregating Variables
 Visualizing Data: Utilizing data visualization libraries like Matplotlib and Seaborn to create various types of charts, including histograms, line charts, pie charts, and bar charts.
 Reporting Results: Summarizing the findings in an Excel file. This report not only explains answers to questions from sales and marketing but also documents the data's journey, including population flow, consistency checks, data wrangling steps, and column derivations. It serves as a comprehensive documentation of the entire analysis process.
+
 Visualizations for this project can be found on Tableau [here]((https://public.tableau.com/views/WaterLossProject/WaterLoss?:language=en-US&:display_count=n&:origin=viz_share_link)https://public.tableau.com/views/WaterLossProject/WaterLoss?:language=en-US&:display_count=n&:origin=viz_share_link).
