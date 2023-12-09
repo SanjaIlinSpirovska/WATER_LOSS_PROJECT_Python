@@ -23,11 +23,11 @@ For this project, the following python libraries were used:
 + seaborn - for visualization
 + matplotlib - a plotting library and a dependency for seaborn
 + scipy - a fundamental Python library necessary for visualizations
-+ folium -  is a Python library for creating interactive leaflet maps
-+ geopandas - extends the Pandas library to enable spatial operations on geometric types
-+ pyproj - Pyproj is a Python interface to the PROJ library, which is used for cartographic projections and coordinate transformations
-+ sklearn - is a machine learning library in Python
-+ statsmodels - is a Python module that provides classes and functions for estimating and testing statistical models
++ folium -  a Python library used for creating interactive leaflet maps within web applications
++ geopandas - an extension of the pandas library that provides support for geographic data types and operations
++ pyproj - is a Python interface to the PROJ library, which is used for cartographic projections and coordinate transformations
++ sklearn - is a machine learning library in Python that provides simple and efficient tools for data analysis and modeling
++ statsmodels - a Python library for estimating and testing statistical models, providing classes and functions for statistical analysis
 
 The code is available as jupyter notebooks, under /[scripts](https://github.com/SanjaIlinSpirovska/WATER-LOSS-PROJECT_Python/tree/main/02%20Scripts)/.
 
