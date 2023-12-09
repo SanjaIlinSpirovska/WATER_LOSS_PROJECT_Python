@@ -3,10 +3,10 @@ This is a data analysis project that contributes to the identification of the fa
 ## Objective
 The project objective is to increase the efficiency of the planning process for the rehabilitation of water supply systems as well as defining the risk of new pipe failures. The results of the analysis are expected to enable faster and more efficient identification of the factors causing pipe failures and leakage in water supply systems, and thus, to improve the current operational practice of the water utilities.
 ## Key Questions
-* Explore the risk factors for the occurrence of the pipe failures.
+* Explore the risk factors for the occurrence of the pipe failures
 * Which risk factor is the dominant one?
 * Which pipe material is the most apron to failure and under which conditions?
-* Spatial distribution of the pipe failures.
+* Spatial distribution of the pipe failures
 * Is there any seasonably pattern in the occurrence of the pipe leakage?
 * Forecast failures occurrence over time
 ## Data
