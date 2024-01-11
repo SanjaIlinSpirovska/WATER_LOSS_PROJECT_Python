@@ -13,9 +13,9 @@ The project objective is to increase the efficiency of the planning process for 
 1.	**Data Sourcing:**
 The data were obtained by request from the municipal utility for the city of Pforzheim, Germany as a part of the research project AWaRe at the Karlsruhe Institute of Technology (KIT) and can be used only for academic or educational purposes. 
 2.	**Data Contents:**
-* The dataset labeled "pipelines" (originally named "leitungen.xlsx") provides essential details about the water supply pipelines, including specific characteristics like the material of the pipes, their diameter, age, and information about the environmental factors affecting the pipelines. This environmental data includes details about traffic loading, the level of groundwater, and the type of soil (considering soil aggressiveness and settlement).
-* The "failures" dataset (originally named "schaeden.xlsx") provides fundamental information about the pipe failures that have occurred within the water supply network. This dataset includes details about the specific pipe where the failures took place, the date when the failure was reported, and the cause or reason for the damage.
-* The "Schadensdaten_geo" dataset provides fundamental information about the water supply network in Pforzheim, including details such as coordinates for reported water pipe failures and the corresponding street addresses where these failures occurred.
+* dataset "pipelines" (originally named "leitungen.xlsx") provides essential details about the water supply pipelines, including specific characteristics like the material of the pipes, their diameter, age, and information about the environmental factors affecting the pipelines. This environmental data includes details about traffic loading, the level of groundwater, and the type of soil (considering soil aggressiveness and settlement).
+* dataset "failures" (originally named "schaeden.xlsx") provides fundamental information about the pipe failures that have occurred within the water supply network. This dataset includes details about the specific pipe where the failures took place, the date when the failure was reported, and the cause or reason for the damage.
+* dataset "Schadensdaten_geo" provides fundamental information about the water supply network in Pforzheim, including details such as coordinates for reported water pipe failures and the corresponding street addresses where these failures occurred.
 ## Tools
 For this project, the following python libraries were used:
 + pandas - for data analysis
